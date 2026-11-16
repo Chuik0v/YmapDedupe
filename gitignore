@@ -1,0 +1,13 @@
+# Per-user settings created next to the exe
+ymapdedupe.ini
+
+# Build output: upload the exe via GitHub Releases instead of committing it
+*.exe
+*.pdb
+
+# Generated reports
+*.csv
+
+# CodeWalker files must not be redistributed here
+CodeWalker*.dll
+SharpDX*.dll
